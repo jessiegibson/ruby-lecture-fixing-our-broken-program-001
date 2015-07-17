@@ -1,30 +1,31 @@
----
-tags: introduction, debugging, lecture
-language: ruby
-type: video
----
-
 # Fixing Our Broken Program
 
-[MP4](http://flatiron-videos.s3.amazonaws.com/ironboard/ruby/ruby-lecture-fixing-our-broken-program/ruby-lecture-fixing-our-broken-program.mp4)
+## Objectives
+
+1. Familiarize yourself with reading test output and error messages
+2. Create a working Ruby program
 
 <video controls width="100%">
   <source src="http://flatiron-videos.s3.amazonaws.com/ironboard/ruby/ruby-lecture-fixing-our-broken-program/ruby-lecture-fixing-our-broken-program.mp4" type="video/mp4" >
     Your browser does not support the video tag. We recommend using Chrome
 </video>
 
-## Lab
+[MP4](http://flatiron-videos.s3.amazonaws.com/ironboard/ruby/ruby-lecture-fixing-our-broken-program/ruby-lecture-fixing-our-broken-program.mp4)
 
-Fork and clone this repository. 
+## Lab Instructions
 
-Run `learn` from within the cloned directory and your tests will fail.
+1) Fork and clone this repository. 
 
-Open the file `lib/a_working_program.rb` and fix the error.
+2) Run `learn` from within the cloned directory and you will see that one test passes and the other fails.
 
-The entire contents of the file should read:
+3) Open the file `lib/a_working_program.rb` and fix the error.
+
+4) The entire contents of the file should read:
 
 ```ruby
 puts "Hello World"
 ```
 
-Save the file, run `learn` and it should pass. Commit your changes and push then open a pull request and it should be all green.
+5) Save the file, run `learn` and it should pass. 
+
+6) Commit your changes and push, then open a pull request between your master branch and the master branch of this repository.
